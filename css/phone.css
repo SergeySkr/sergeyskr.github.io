@@ -1,0 +1,127 @@
+.cover{
+	background-image: url("../images/bg.jpg");
+	background-size: cover;
+	width: 100vw;
+	height: 640px; /*changable value*/
+}
+
+.screen-1{
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: repeat(6, 1fr); /*changable value*/
+	grid-template-rows: repeat(3, auto);
+	grid-column-gap: 20px;
+	justify-content: center;
+	margin-left: 15px; /*changable value*/
+	margin-right: 15px; /*changable value*/
+}
+
+.screen-1 > nav{
+	display: grid;
+	grid-column: 1 / 7;
+	grid-template-columns: repeat(6, auto); /*changable value*/
+	margin-top: 20px; /*changable value*/
+}
+
+.screen-1 > nav > .brand{
+	display: grid;
+	grid-row: 1 / 2; /*changable value*/
+	grid-column: 1 / 5; /*changable value*/
+	justify-self: start; /*changable value*/
+	margin-top: 0px; /*changable value*/
+}
+
+.screen-1 > nav > .brand > h1{
+	font-family: 'Poppins', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px; /*changable value*/
+	line-height: 30px; /*changable value*/
+	justify-self: start; /*changable value*/
+	color: #FFFFFF;
+}
+
+.screen-1 > nav > .brand > h2{
+	font-family: 'Poppins', sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 14px; /*changable value*/
+	line-height: 21px; /*changable value*/
+	justify-self: start; /*changable value*/
+	color: #FFFFFF;
+}
+
+.screen-1 > nav > .links{
+	display: none; /*changable value*/
+}
+
+.screen-1 > .leftside{
+	display: none; /*changable value*/
+} 
+
+.btn-links{
+	display: grid;
+	grid-row: 1 / 2; /*changable value*/
+	grid-column: 5 / 7; /*changable value*/
+	width: 40px;
+	height: 40px;
+	border-radius: 5px;
+	background-color: #333333;
+	margin-top: 7px;
+	justify-self: end;
+}
+
+.btn-links > img{
+	margin: 8px;
+}
+
+.main{
+	grid-template-rows: 70px 70px; /*changable value*/
+	display: grid;
+	grid-column: 1 / 7; /*changable value*/
+	grid-row: 2 / 3; /*changable value*/
+	height: 130px; /*changable value*/
+	margin-top: 155px; /*changable value*/
+	justify-self: center; /*changable value*/
+}
+
+.main > h1{
+	display: grid;
+	font-family: 'Poppins', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 30px; /*changable value*/
+	line-height: 45px; /*changable value*/
+	text-transform: uppercase;
+	color: #FFFFFF;
+	margin-top: 20px;
+	width: 211px;
+	text-align: center;
+}
+
+.main > h2{
+	display: grid;
+	font-family: 'Poppins', sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	font-size: 18px; /*changable value*/
+	line-height: 27px; /*changable value*/
+	text-transform: uppercase;
+	color: #FFFFFF;
+	margin-top: 60px; /*changable value*/
+	width: 215px;
+	text-align: center;
+}
+
+.arrow{
+	display: grid;
+	grid-column: 1 / 7; /*changable value*/
+	grid-row: 3 / 4;
+	justify-self: center;
+	margin-top: 240px; /*changable value*/
+}
+
+.arrow > img{
+	width: 24px;
+	height: 24px;
+}
