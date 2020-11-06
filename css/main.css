@@ -1,8 +1,63 @@
 *{
 	margin: 0;
 	padding: 0;
+	outline: none;
+}
+
+*:active{
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 body{
 	overflow-x: hidden;
+}
+
+a{
+	transition-timing-function: ease-in-out;
+	transition-duration: 0.2s;
+}
+
+a:hover{
+	opacity: 0.8;
+	transition-timing-function: ease-in-out;
+	transition-duration: 0.2s;
+}
+
+.prev-arrow{
+	transition-timing-function: ease-in-out;
+	transition-duration: 0.2s;
+}
+
+.prev-arrow:hover{
+	transition-timing-function: ease-in-out;
+	transition-duration: 0.2s;
+	opacity: 0.8;
+}
+
+.next-arrow{
+	transition-timing-function: ease-in-out;
+	transition-duration: 0.2s;
+}
+
+.next-arrow:hover{
+	transition-timing-function: ease-in-out;
+	transition-duration: 0.2s;
+	opacity: 0.8;
+}
+
+.main-2 > .button{
+	transition-timing-function: ease-in-out;
+	transition-duration: 0.2s;
+}
+
+.main-2 > .button:hover{
+	transition-timing-function: ease-in-out;
+	transition-duration: 0.5s;
+	background-color: #D90A34;
+}
+
+.main-2 > .button > a:hover{
+	opacity: 1;
+	transition-timing-function: ease-in-out;
+	transition-duration: 0.5s;
 }
