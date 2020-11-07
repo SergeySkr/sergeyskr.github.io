@@ -61,3 +61,53 @@ a:hover{
 	transition-timing-function: ease-in-out;
 	transition-duration: 0.5s;
 }
+
+.popUp-cover{
+	display: none;
+	position: fixed;
+	z-index: 99;
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.8);
+	animation-name: show;
+	animation-duration: 0.5s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: inherit;
+
+	grid-template-columns: repeat(10, 1fr);
+}
+
+.popUp > .after > .close{
+	transition-timing-function: ease-in-out;
+	transition-duration: 0.2s;
+}
+
+.popUp > .after > .close:hover{
+	background-color: #D90A34;
+	transition-timing-function: ease-in-out;
+	transition-duration: 0.2s;
+}
+
+@keyframes show {
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+
+.gallery > div{
+	overflow: hidden;
+}
+
+.gallery > div > img{
+	transition-timing-function: ease-in-out;
+	transition-duration: 0.2s;
+}
+
+.gallery > div > img:hover{
+	transform: scale(1.1);
+	transition-timing-function: ease-in-out;
+	transition-duration: 0.3s;
+}

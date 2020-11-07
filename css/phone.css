@@ -1,3 +1,78 @@
+.popUp{
+	display: grid;
+	grid-column: 1 / 11;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 1fr;
+	height: auto;
+	background-size: cover;
+	margin: 5px; 
+}
+
+.popUp > .before{
+	display: grid;
+	grid-column: 1 / 2;
+	grid-row: 1 / 2;
+	height: auto;
+	background-size: cover;
+	background-position: center;
+	border-radius: 5px 5px 0px 0px;
+}
+
+.before > .link{
+	background-color: #ED0048;
+	justify-self: start;
+	align-self: start;
+	margin-top: 5px;
+	margin-left: 5px;
+	width: 50px;
+	height: 50px;
+	border-radius: 10px;
+}
+
+.link > img{
+	margin-top: 13px;
+	margin-left: 13px;
+}
+
+.popUp > .after{
+	display: grid;
+	grid-column: 1 / 2;
+	grid-row: 2 / 3;
+	height: auto;
+	background-size: cover;
+	background-position: center;
+	border-radius: 0px 0px 5px 5px;
+}
+
+.before > h4{
+	display: none;
+}
+
+.after > h4{
+	display: none;
+}
+
+.close{
+	width: 50px;
+	height: 50px;
+	background: #ED0048;
+	border-radius: 10px;
+	font-family: Mulish;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 18px;
+	text-transform: capitalize;
+	color: #FFFFFF;
+	border: none;
+	align-self: end;
+	justify-self: end;
+	margin-bottom: 5px;
+	margin-right: 5px;
+}
+
+/*////////////////////////////////////////////////////////////////////////////////*/
+
 .cover{
 	background-image: url("../images/bg.jpg");
 	background-size: cover;
@@ -242,7 +317,8 @@
 }
 
 .gallery > div:nth-child(2) > img{
-	display: none;
+	opacity: 0;
+	height: 100%;
 }
 
 .gallery > div:nth-child(3){
@@ -287,7 +363,8 @@
 }
 
 .gallery > div:nth-child(7) > img{
-	display: none;
+	opacity: 0;
+	height: 100%;
 }
 
 .gallery > div:nth-child(8){
