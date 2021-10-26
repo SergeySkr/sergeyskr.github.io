@@ -90,3 +90,4 @@ adtarget.com.tr, 306742, DIRECT
 admatic.com.tr, adm-pub-185375301865, DIRECT
 adform.com, 2600, DIRECT
 stroeer.com, 17938, DIRECT
+exchange.admazing.co, AM3, RESELLER
