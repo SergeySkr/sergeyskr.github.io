@@ -103,3 +103,6 @@ bidmachine.io, 114, RESELLER
 bidmachine.io, 67, RESELLER
 criteo.com, B-057955, RESELLER, 9fac4a4a87c2a44f
 yandex.com, 40427798, RESELLER
+admixplay.com, 2012, RESELLER
+bidease.com, exchange-20, RESELLER
+yeahmobi.com, 5135195, RESELLER
